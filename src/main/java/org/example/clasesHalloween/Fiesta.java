@@ -5,6 +5,15 @@ public class Fiesta {
     public String fecha;
     public double costosTotal;
     public double gastosTotal ;
+
+    public double costosAlimentos;
+
+    public double costosBebidas;
+
+    public double costosLugar;
+
+    public double costosEquipos;
+
     public float ganancias;
     public int numeroEntradas;
     public double valorEntrada;
@@ -13,6 +22,15 @@ public class Fiesta {
 
     public Fiesta() {
 
+    }
+
+    public Fiesta(String fecha, double costosTotal, double gastosTotal, float ganancias, int numeroEntradas, double valorEntrada) {
+        this.fecha = fecha;
+        this.costosTotal = costosTotal;
+        this.gastosTotal = gastosTotal;
+        this.ganancias = ganancias;
+        this.numeroEntradas = numeroEntradas;
+        this.valorEntrada = valorEntrada;
     }
 
     //METODOS
